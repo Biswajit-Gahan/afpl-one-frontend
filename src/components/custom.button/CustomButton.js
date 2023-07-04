@@ -1,18 +1,19 @@
 import React from "react";
 import { Button } from "./custom.button.styles";
 
-const CustomButton = ({ name, padding, cursor, border, backgroundImage, color, fontWeight, borderRadius, backgroundColor, fontSize }) => {
+const CustomButton = ({ name, padding, cursor, border, bg_image, color, font_weight, border_radius, bg_color, font_size, transform }) => {
   return (
     <Button
       padding={padding}
       cursor={cursor}
       border={border}
-      backgroundImage={backgroundImage}
+      bg_image={bg_image}
       color={color}
-      fontWeight={fontWeight}
-      borderRadius={borderRadius}
-      backgroundColor={backgroundColor}
-      fontSize={fontSize}
+      font_weight={font_weight}
+      border_radius={border_radius}
+      bg_color={bg_color}
+      font_size={font_size}
+      transform={transform}
     >
       {name}
     </Button>
