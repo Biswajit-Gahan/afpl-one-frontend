@@ -4,7 +4,9 @@ const Colors = {
   WHITE: "#FFFFFF",
   OFF_WHITE_100: "#FAFAFA",
   BLACK_300: "#424242",
-  BLACK_SHADOW: "rgba(115, 115, 115, 0.1)"
+  BLACK_SHADOW: "rgba(115, 115, 115, 0.1)",
+  BLACK_SHADOW_200: "rgba(48, 48, 48, 0.7)",
+  OVERLAY_TRANSPARENT_100: "rgba(45, 45, 45, 0.7)",
 };
 
 export default Colors;

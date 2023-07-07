@@ -9,6 +9,9 @@ export const Container = styled.section`
   align-items: center;
   gap: 100px;
   flex-wrap: wrap;
+  background-color: ${Colors.WHITE};
+  box-shadow: 0 1px 10px 1px ${Colors.BLACK_SHADOW};
+  padding: 10px 0;
 
   @media (min-width: ${Sizes.tablet}) AND (max-width: ${Sizes.laptop}) {
     gap: 15px;
@@ -27,6 +30,10 @@ export const LogoContainer = styled.div``;
 
 export const BrandLogo = styled.img`
   width: 230px;
+
+  @media (min-width: ${Sizes.tablet}) AND (max-width: ${Sizes.laptop}) {
+    width: 200px;
+  }
 
   @media (max-width: ${Sizes.tablet}) {
     width: 180px;

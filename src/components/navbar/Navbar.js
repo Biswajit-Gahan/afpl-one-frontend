@@ -37,7 +37,8 @@ const Navbar = () => {
                   <LanguageName>ଓଡ଼ିଆ</LanguageName>
                   <LanguageName>हिंदी</LanguageName>
                   <LanguageName>English</LanguageName>
-                  <LanguageName>తెలుగు</LanguageName>
+                  <LanguageName>বাংলা</LanguageName>
+                  <LanguageName>ಕನ್ನಡ</LanguageName>
                 </LanguageList>
               </LanguageWrapper>
             </LanguageListContainer>
