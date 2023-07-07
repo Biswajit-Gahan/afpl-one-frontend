@@ -13,11 +13,11 @@ export const Container = styled.section`
 `;
 
 export const LeftContainer = styled.div`
-  flex: 1.5;
+  flex: 2;
   display: flex;
   background-color: ${Colors.WHITE};
-  padding: 10px;
-  box-shadow: -2px 0 20px 1px ${Colors.BLACK_SHADOW_200};
+  padding: 20px;
+  box-shadow: 2px 0 20px 1px ${Colors.BLACK_SHADOW_200};
   border-radius: 0 20px 20px 0;
   flex-direction: column;
   align-items: flex-start;
@@ -28,13 +28,12 @@ export const LeftWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 35px;
   width: 100%;
 `;
 
 export const RightContainer = styled.div`
   flex: 1;
-  padding: 10px;
 `;
 
 export const LogoContainer = styled.div`
@@ -69,7 +68,7 @@ export const NavList = styled.li`
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
 `;
 
@@ -85,16 +84,17 @@ export const LanguageList = styled.li`
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
 `;
 
 export const HeaderLabel = styled.p`
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 20px;
+  color: ${Colors.PURPLE_200};
 `;
 
 export const UserContainer = styled.div``;
@@ -103,8 +103,9 @@ export const AuthLabel = styled.p`
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
+  color: ${Colors.PURPLE_200};
 `;
 
 export const ButtonContainer = styled.button`
@@ -113,6 +114,6 @@ export const ButtonContainer = styled.button`
 
 export const CustomIcon = styled.p`
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
   width: 15px;
 `;
