@@ -40,7 +40,6 @@ const NavbarMobile = () => {
             <LanguageList><CustomIcon>KA</CustomIcon>ಕನ್ನಡ</LanguageList>
           </LanguageListContainer>
           <UserContainer>
-            {/* <HeaderLabel><BiUserCircle />User</HeaderLabel> */}
             <AuthLabel><BiUserCircle />Login</AuthLabel>
           </UserContainer>
 
