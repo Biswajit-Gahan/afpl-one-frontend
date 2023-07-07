@@ -9,7 +9,6 @@ import { CgMenuGridO } from "react-icons/cg";
 import { LuContact } from "react-icons/lu";
 import { HiMiniLanguage } from "react-icons/hi2";
 import { IoClose } from "react-icons/io5";
-import { IoMdLogIn } from "react-icons/io";
 import { BiUserCircle } from "react-icons/bi";
 import BrandLogo from "../../assets/image/afpl-one-logo-colored.png";
 
@@ -55,6 +54,7 @@ const NavbarMobile = () => {
             font_weight="500"
             border_radius="5px"
           />
+
         </ButtonContainer>
       </LeftContainer>
       <RightContainer></RightContainer>

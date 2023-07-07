@@ -18,7 +18,7 @@ export const LeftContainer = styled.div`
   background-color: ${Colors.WHITE};
   padding: 20px;
   box-shadow: 2px 0 20px 1px ${Colors.BLACK_SHADOW_200};
-  border-radius: 0 20px 20px 0;
+  /* border-radius: 0 20px 20px 0; */
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
