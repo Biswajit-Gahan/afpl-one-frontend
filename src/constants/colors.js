@@ -8,6 +8,8 @@ const Colors = {
   BLACK_SHADOW_200: "rgba(48, 48, 48, 0.7)",
   OVERLAY_TRANSPARENT_100: "rgba(45, 45, 45, 0.7)",
   PURPLE_200: "rgba(100, 79, 136, 1)",
+  OVERLAY_GRADIENT_LIGHT: "rgba(48, 48, 48, 0.2)",
+  OVERLAY_GRADIENT_DARK: "rgba(18, 18, 18, 0.9)",
 };
 
 export default Colors;

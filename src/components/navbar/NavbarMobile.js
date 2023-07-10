@@ -13,6 +13,7 @@ import { BiUserCircle } from "react-icons/bi";
 import BrandLogo from "../../assets/image/afpl-one-logo-colored.png";
 
 const NavbarMobile = () => {
+
   return (
     <Container>
       <LeftContainer>

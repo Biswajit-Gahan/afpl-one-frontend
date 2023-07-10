@@ -8,6 +8,7 @@ import CustomButton from "../custom.button/CustomButton";
 import Colors from "../../constants/colors";
 
 const Navbar = () => {
+
   return (
     <Container>
       <LeftContainer>

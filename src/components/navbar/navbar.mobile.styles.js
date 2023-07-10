@@ -1,15 +1,20 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 import Colors from "../../constants/colors";
+import { Sizes } from "../../constants/responsive";
 
 export const Container = styled.section`
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  background-color: ${Colors.OVERLAY_TRANSPARENT_100};
-  backdrop-filter: blur(5px);
+  display: none;
+
+  @media (max-width: ${Sizes.tablet}) {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: ${Colors.OVERLAY_TRANSPARENT_100};
+    backdrop-filter: blur(5px);
+  }
 `;
 
 export const LeftContainer = styled.div`
@@ -18,7 +23,6 @@ export const LeftContainer = styled.div`
   background-color: ${Colors.WHITE};
   padding: 20px;
   box-shadow: 2px 0 20px 1px ${Colors.BLACK_SHADOW_200};
-  /* border-radius: 0 20px 20px 0; */
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;

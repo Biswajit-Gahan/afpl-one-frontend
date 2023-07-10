@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 import Colors from "../../constants/colors";
 import { Sizes } from "../../constants/responsive";
 
@@ -126,6 +126,7 @@ export const LanguageWrapper = styled.div`
   transform: translateY(100%);
   padding-top: 15px;
   transition: all 0.2s ease-in-out;
+  z-index: 1000;
 
   ${LanguageListContainer}:hover & {
     visibility: visible;
