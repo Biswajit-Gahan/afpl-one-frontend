@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { sliderTransition } from "../../constants/keyframes";
 
 export const Button = styled.button`
   padding: ${({ padding }) => (padding)};
@@ -11,8 +12,8 @@ export const Button = styled.button`
   background-color: ${({ bg_color }) => (bg_color)};
   font-size: ${({ font_size }) => (font_size)};
   transition: all 0.1s ease-in;
-  
+
   &:hover {
     transform: ${({ transform }) => (transform)};
-  }
+  };
 `;

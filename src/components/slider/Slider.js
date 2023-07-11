@@ -3,14 +3,14 @@ import { Container, ContentsContainer, HeaderText, QuoteText, TextContainer, Wra
 import CustomButton from '../custom.button/CustomButton';
 import Colors from '../../constants/colors';
 
-const Slider = ({ img, alt, header, quote, btnLink, headerSlide, quoteSlide, btnSlice }) => {
+const Slider = ({ img, alt, header, quote, btnLink, headerSlide, quoteSlide }) => {
   return (
     <Container>
       <Wrapper bgImg={img}>
         <ContentsContainer>
           <TextContainer>
-            <HeaderText>{header}</HeaderText>
-            <QuoteText>{quote}</QuoteText>
+            <HeaderText headerSlide={headerSlide}>{header}</HeaderText>
+            <QuoteText quoteSlide={quoteSlide}>{quote}</QuoteText>
           </TextContainer>
           <CustomButton
             name="Apply Now"
