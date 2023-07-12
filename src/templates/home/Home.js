@@ -1,5 +1,5 @@
 import React from 'react'
-import { ApplicationProcessContainer, ContactUsContainer, Container, CreditMeterImage, CreditScoreContainer, Divider, GetCreditContainer, GetCreditHeader, GetCreditText, GetCreditTextContainer, GetMobileAppContainer, LoanCategoriesContainer, MainSectionContainer, OurServicesContainer, TestimonialsContainer, WaveContainer } from './home.styles'
+import { ApplicationProcessContainer, ContactUsContainer, Container, CreditMeterImage, CreditScoreContainer, Divider, GetCreditContainer, GetCreditHeader, GetCreditText, GetCreditTextContainer, GetMobileAppContainer, LoanCategoriesContainer, MainSectionContainer, OurServicesContainer, SliderContainer, TestimonialsContainer, WaveContainer } from './home.styles'
 import Slider from '../../components/slider/Slider';
 import sliderImage1 from "../../assets/image/slider-img-1.jpg";
 import waveImage from "../../assets/image/slider-wave.svg";
@@ -10,15 +10,27 @@ const Home = () => {
   return (
     <Container>
       <MainSectionContainer>
-        <Slider
-          img={sliderImage1}
-          alt="personal loan"
-          header="The right decision at the right time."
-          quote="We are here to help you when you need financial support, then we are help you."
-          btnLink="/"
-          headerSlide="fromUp"
-          quoteSlide="fromLeft"
-        />
+        <SliderContainer>
+          <Slider
+            img={sliderImage1}
+            alt="personal loan"
+            header="The right decision at the right time."
+            quote="We are here to help you when you need financial support, then we are help you."
+            btnLink="/"
+            headerSlide="fromUp"
+            quoteSlide="fromLeft"
+          />
+
+          <Slider
+            img={sliderImage1}
+            alt="car loan"
+            header="Testing"
+            quote="We are here to help you when you need financial support, then we are help you."
+            btnLink="/"
+            headerSlide="fromUp"
+            quoteSlide="fromLeft"
+          />
+        </SliderContainer>
 
         <WaveContainer bgImg={waveImage}></WaveContainer>
 

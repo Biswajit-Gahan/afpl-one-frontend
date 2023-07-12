@@ -6,7 +6,9 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  height:100vh;
+  width: 100vw;
+  /* height: 100vh; */
+  min-height: 800px;
   background: linear-gradient(
     to top,
     ${Colors.OVERLAY_GRADIENT_DARK},
@@ -16,11 +18,12 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: all 1s ease-in-out;
 `;
 
 export const ContentsContainer = styled.div`
   width: 100%;
-  height: 70%;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;

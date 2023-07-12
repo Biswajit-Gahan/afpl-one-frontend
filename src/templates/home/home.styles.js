@@ -8,12 +8,20 @@ export const Container = styled.div`
 
 export const MainSectionContainer = styled.main`
   position: relative;
+  /* newly added */
+  min-height: 800px;
+`;
+
+export const SliderContainer = styled.div`
+  display: flex;
+  overflow: hidden;
 `;
 
 export const WaveContainer = styled.div`
   position: absolute;
   width: 100%;
-  height: 20%;
+  /* height: 20%; */
+  min-height: 200px;
   background-image: url(${({ bgImg }) => bgImg});
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +52,7 @@ export const CreditMeterImage = styled(scoreMeter)`
   #pointer {
     transform-origin: center;
     transform-box: fill-box;
-    animation: ${rotateCreditMeter} infinite 3s alternate;
+    animation: ${rotateCreditMeter} infinite 3s forwards alternate;
   }
 `;
 
